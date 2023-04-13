@@ -1,0 +1,21 @@
+.btn {
+  display: flex;
+  background-color: #e5989b;
+  cursor: pointer;
+  padding: 10px;
+  margin: 50px auto;
+  color: #60454a;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover{
+    color: #e1a9ab;
+    background-color: rgba(55, 40, 70, 0.2);
+}
+.img_size{
+  width: 200px;
+  height: auto;
+}

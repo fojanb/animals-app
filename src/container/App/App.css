@@ -1,0 +1,18 @@
+#addAnimal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #22577a;
+  background-color: #b8c0ff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#addAnimal:hover {
+  transform: scale(1.1);
+}

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AnimalShow from "../../component/AnimalShow/AnimalShow";
 import GetAnimal from "../../component/GetAnimal/GetAnimal";
+import "./App.css"
 const App = () => {
   const [animals, setAnimals] = useState([]);
   // Call a function Vs. Refrence to a function
@@ -15,7 +16,7 @@ const App = () => {
   });
   return (
     <>
-      <button onClick={clickHandler}>Add Animal</button>
+      <button onClick={clickHandler} id="addAnimal">Add Animal</button>
       <div>{renderedAnimals}</div>
     </>
   );

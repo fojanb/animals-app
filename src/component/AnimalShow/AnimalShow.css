@@ -1,0 +1,6 @@
+.heart {
+  cursor: pointer;
+}
+.bigHeart {
+    transform: scale(1.1);
+}

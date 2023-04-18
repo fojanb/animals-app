@@ -10,8 +10,9 @@
   border: none;
   color: #22577a;
   background-color: #b8c0ff;
-  font-weight: bolder;
   cursor: pointer;
+  font-family: "Lilita One", cursive;
+  letter-spacing: 1px;
 }
 #addAnimal:hover {
   transform: scale(1.1);

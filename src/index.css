@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
 * {
   box-sizing: border-box;
 }
-body{
-    background-color: #22577a;
+body {
+  font-family: "Lilita One", cursive;
+  background-color: #22577a;
 }

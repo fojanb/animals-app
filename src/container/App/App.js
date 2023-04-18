@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
       <button onClick={clickHandler} id="addAnimal">Add Animal</button>
-      <div>{renderedAnimals}</div>
+      <div style={{display:"flex",flexDirection:"row"}}>{renderedAnimals}</div>
     </>
   );
 };

@@ -24,6 +24,10 @@ const GetAnimal = () => {
       alt: "Hippo",
       src: "https://user-images.githubusercontent.com/23070621/232392875-14e4987d-3c30-48b2-9e06-0e1c9945dbef.png",
     },
+    {
+      alt: "Zebra",
+      src: "https://user-images.githubusercontent.com/23070621/232878298-765c7ddd-2a8b-46d1-801b-be4261cd23a0.png",
+    },
   ];
   return pool[Math.floor(Math.random() * pool.length)];
 };
